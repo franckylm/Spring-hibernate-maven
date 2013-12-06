@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<Context path="/PostgresSQLDB" docBase="PostgresSQLDB" 
+ debug="5" reloadable="true" crossContext="true"> 
+ <Resource 
+	name="jdbc/PostgresSQLDB" 
+	auth="Container" 
+	type="javax.sql.DataSource" 
+	maxActive="100" 
+	maxIdle="30" 
+	maxWait="100000" 
+	username="log720" 
+	password="admin" 
+	driverClassName="org.postgresql.Driver" 
+	url="jdbc:postgresql://localhost:5432/log720"/>
+ <Realm className="org.apache.catalina.realm.DataSourceRealm"
+       userTable="users"
+       userNameCol="user_name"
+       userCredCol="user_pass"
+       userRoleTable="user_roles"
+       roleNameCol="role_name"
+       localDataSource="true"
+       dataSourceName="jdbc/PostgresSQLDB"/>
+</Context>

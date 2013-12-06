@@ -1,0 +1,17 @@
+#infractionTable{
+	margin-top:20px;
+}
+
+#folderTable{
+	margin-top:20px;
+}
+
+.centred{
+	 margin-left: auto;
+	 margin-right: auto;
+	 float: none;
+}
+
+.textbold{
+	font-weight:bold;
+}
