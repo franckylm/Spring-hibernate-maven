@@ -3,7 +3,7 @@
 -- Equipe 4-----------------------
 -- references creation
 -----------------------
--- Members : Libam - Guilpaint - Henry-Lebel - Laurendeau
+-- Members : Libam
 
 -----------------------
 -- drop tables
