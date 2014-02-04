@@ -1,6 +1,6 @@
 -- LOG720
 -- LAB2
--- Equipe 4-----------------------
+-- Equipe 4 -----------------------
 -- references creation
 -----------------------
 -- Members : Libam
